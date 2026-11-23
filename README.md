@@ -10,8 +10,8 @@ Ve a **Releases** y descarga el instalador con el número de versión más alto:
 
 `https://github.com/JArmandoMP/SaludEnOrden-Descargas/releases`
 
-> Estado actual: instalador de `0.17.0.1` publicado en Releases.
-> SHA256: `9A150C33C94D5B1310025867821446B308F09011CB392EF3FAE530A383A963AF`
+> Estado actual: instalador de `0.17.0.2` publicado en Releases.
+> SHA256: `0077532A8EBE67FB7E970BE154770D8ED958E9777ECF9E4668922DCBA5F1A867`
 
 ## Verificar la descarga
 
@@ -22,7 +22,7 @@ comprobar que descargaste exactamente el archivo publicado:
 2. Compara su SHA256 con el publicado en la nota de la Release. En PowerShell:
 
    ```powershell
-   Get-FileHash ".\SaludEnOrden-v0.17.0.1.exe" -Algorithm SHA256
+   Get-FileHash ".\SaludEnOrden-v0.17.0.2.exe" -Algorithm SHA256
    ```
 
 3. Si quieres una segunda opinión, sube el instalador a VirusTotal:
