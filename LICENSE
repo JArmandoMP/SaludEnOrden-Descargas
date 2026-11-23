@@ -1,0 +1,37 @@
+Copyright (c) 2026 Jorge M. Pérez
+Todos los derechos reservados.
+
+Licencia de uso personal, familiar y no comercial
+
+El titular de los derechos de autor de SaludEnOrden (en adelante, "el Software"),
+su código fuente, diseño, documentación e instaladores, autoriza a familiares y
+conocidos designados por él a:
+
+1. Instalar y usar una copia del Software en equipos de su propiedad.
+2. Guardar, consultar, imprimir y respaldar únicamente sus propios datos.
+3. Compartir el instalador original, íntegro y sin modificaciones, dentro de ese
+   ámbito personal y familiar, siempre de forma gratuita y acompañado de este
+   aviso y del archivo THIRD_PARTY_NOTICES.md.
+
+No se autoriza:
+
+- Vender, revender, alquilar, cobrar por el Software, por su instalación o por
+  soporte vinculado a él.
+- Publicar el código fuente o el instalador en repositorios, tiendas, sitios web,
+  grupos o canales públicos distintos de los designados expresamente por el titular.
+- Modificar, adaptar, traducir, descompilar, aplicar ingeniería inversa, eliminar
+  avisos de copyright, cambiar la marca o crear versiones derivadas.
+- Usar el Software para prestar servicios a terceros, recopilar datos de otras
+  personas o integrarlo en otro producto.
+- Eliminar o alterar este aviso, el archivo LICENSE o los avisos de terceros.
+
+El Software se entrega "tal cual", sin garantías de ningún tipo. El titular no se
+hace responsable de la pérdida de datos, errores de impresión, fallos del equipo ni
+de daños derivados del uso del Software. Cada persona es responsable de sus propios
+respaldos y de la confidencialidad de su información médica.
+
+Cualquier uso fuera de lo autorizado requiere permiso previo y por escrito del
+titular. Los componentes de terceros incluidos se rigen por sus propias licencias,
+relacionadas en THIRD_PARTY_NOTICES.md; este archivo no modifica esas licencias.
+
+© 2026 Jorge M. Pérez. SaludEnOrden · Todos los derechos reservados.

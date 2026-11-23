@@ -1,0 +1,85 @@
+name: Reportar un fallo
+description: Cuéntanos qué pasó para poder corregirlo. No pegues datos médicos.
+title: "[Fallo] "
+labels: ["fallo"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por ayudar a mejorar SaludEnOrden.
+
+        **Importante:** no pegues nombres, datos médicos, contraseñas, respaldos
+        ni capturas con información personal. Borra o tapa esos datos antes de
+        enviar el reporte.
+
+  - type: input
+    id: version
+    attributes:
+      label: Versión de SaludEnOrden
+      description: La ves en el icono de la bandeja → Acerca de...
+      placeholder: "0.17.0.1"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: windows
+    attributes:
+      label: Windows
+      options:
+        - Windows 11
+        - Windows 10
+        - Otro
+    validations:
+      required: true
+
+  - type: textarea
+    id: que_paso
+    attributes:
+      label: ¿Qué pasó?
+      description: Describe el fallo con tus palabras.
+    validations:
+      required: true
+
+  - type: textarea
+    id: esperado
+    attributes:
+      label: ¿Qué esperabas que pasara?
+    validations:
+      required: true
+
+  - type: textarea
+    id: pasos
+    attributes:
+      label: Pasos para repetirlo
+      description: Enumera en orden las pantallas y botones que usaste.
+      placeholder: |
+        1. Abrí la app.
+        2. Fui a Visión → Registrar examen.
+        3. ...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: frecuencia
+    attributes:
+      label: ¿Ocurre siempre?
+      options:
+        - Siempre
+        - A veces
+        - Solo una vez
+    validations:
+      required: true
+
+  - type: textarea
+    id: capturas
+    attributes:
+      label: Capturas o mensajes de error
+      description: Sube capturas SIN datos personales. Si hay un mensaje de error, cópialo aquí.
+
+  - type: checkboxes
+    id: privacidad
+    attributes:
+      label: Confidencialidad
+      options:
+        - label: Revisé el reporte y no contiene datos médicos ni personales.
+          required: true
